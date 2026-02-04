@@ -1,0 +1,9 @@
+{
+  "mcp": {
+    "ckb": {
+      "type": "local",
+      "command": ["npx", "@tastehub/ckb", "mcp"],
+      "enabled": true
+    }
+  }
+}
