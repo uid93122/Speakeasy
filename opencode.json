@@ -3,7 +3,11 @@
   "mcp": {
     "ckb": {
       "type": "local",
-      "command": ["npx", "@tastehub/ckb", "mcp"],
+      "command": [
+        "/usr/local/lib/node_modules/@tastehub/ckb/node_modules/@tastehub/ckb-linux-x64/bin/ckb",
+        "mcp",
+        "--preset=full"
+      ],
       "enabled": true
     }
   }
